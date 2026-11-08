@@ -1,0 +1,11 @@
+# Exclu des recherches Claude Code (Glob / Grep / sélecteur de fichiers).
+# Ce fichier est respecte meme hors depot git, contrairement a .gitignore.
+cerveau/
+node_modules/
+backups/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db-shm
+*.db-wal
+package-lock.json

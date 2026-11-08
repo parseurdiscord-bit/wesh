@@ -1,0 +1,28 @@
+node_modules/
+.FullName
+.env
+.env.*
+!.env.example
+*.log
+
+# Base de données et journaux WAL — ne JAMAIS publier
+database.db
+database.db-shm
+database.db-wal
+database.sqlite
+database.sqlite-shm
+database.sqlite-wal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db-shm
+*.db-wal
+
+# Sauvegardes automatiques
+backups/
+
+# Base de connaissances locale (9197 fichiers / 12 Go) - exclue des recherches
+cerveau/
+
+# Fichiers telecharges depuis le web par le chat
+webfiles/
